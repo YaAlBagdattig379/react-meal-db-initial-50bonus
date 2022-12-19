@@ -28,7 +28,6 @@ const Restaurant = () => {
         if  you need help, let us know in the support session
     */
     const handleAddToOrder = meal =>{
-        // console.log(meal);
         // add to order list 
         const newOrders = [...orders,meal];
         setOrders(newOrders)
